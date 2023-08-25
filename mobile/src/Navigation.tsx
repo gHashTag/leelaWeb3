@@ -27,7 +27,7 @@ import SystemNavigationBar from 'react-native-system-navigation-bar'
 import { useAccount } from 'store'
 import UiKit from 'UiKit'
 
-import { black, captureException, lightGray, secondary, white } from './cons'
+import { black, lightGray, secondary, white } from './cons'
 import {
   ContinueScreen,
   WelcomeScreen,
@@ -77,14 +77,12 @@ const App = () => {
       setHasLoadedAccount(true)
 
       if (!rlyAccount) {
-        navigate('WELCOME_SCREEN')
+        navigate('GAME_SCREEN')
         return
       }
       setAccount(rlyAccount)
       if (loading) {
         setProfileData(data?.getPlayerById)
-      } else {
-        captureException(error, 'Error loading profile data')
       }
     }
     loadAccount()
@@ -137,7 +135,7 @@ const App = () => {
     >
       <StatusBar backgroundColor={isDark ? black : white} barStyle={color} />
       <Stack.Navigator
-        initialRouteName="WELCOME_SCREEN"
+        initialRouteName="GAME_SCREEN"
         screenOptions={{
           headerShown: false,
         }}

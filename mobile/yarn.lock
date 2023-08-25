@@ -1220,7 +1220,7 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@craftzdog/react-native-buffer@^6.0.5":
+"@craftzdog/react-native-buffer@^6.0.4", "@craftzdog/react-native-buffer@^6.0.5":
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/@craftzdog/react-native-buffer/-/react-native-buffer-6.0.5.tgz#0d4fbe0dd104186d2806655e3c0d25cebdae91d3"
   integrity sha512-Av+YqfwA9e7jhgI9GFE/gTpwl/H+dRRLmZyJPOpKTy107j9Oj7oXlm3/YiMNz+C/CEGqcKAOqnXDLs4OL6AAFw==
@@ -8052,6 +8052,13 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-native-bignumber@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-bignumber/-/react-native-bignumber-0.2.1.tgz#c2370d0e124419bda9043ecffd2fde321981d4b6"
+  integrity sha512-jEtfsYtU/WNR+XHilwtwJRKvoK9Cw0ZWV4ZOIOz5RBRfgxIdGIKS3d1bc1JaOPVGBqbDZ32zBQ/CTI0xyA/vvQ==
+  dependencies:
+    "@craftzdog/react-native-buffer" "^6.0.4"
 
 react-native-dotenv@^3.4.9:
   version "3.4.9"

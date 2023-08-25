@@ -7,4 +7,6 @@ declare module '@env' {
   export const RALLY_API_KEY: string
   export const SENTRY_DSN: string
   export const ALCHEMY_API_KEY: string
+  export const ALCHEMY_API_HTTPS: string
+  export const ALCHEMY_API_WS: string
 }
