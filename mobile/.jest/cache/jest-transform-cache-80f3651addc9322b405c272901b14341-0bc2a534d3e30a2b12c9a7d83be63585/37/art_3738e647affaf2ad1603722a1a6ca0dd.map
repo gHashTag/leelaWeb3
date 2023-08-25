@@ -1,0 +1,1 @@
+{"version":3,"names":["Transform","exports"],"sources":["art.js"],"sourcesContent":["export const Transform = () => null\n"],"mappings":";;;;AAAO,IAAMA,SAAS,GAAG,SAAZA,SAASA,CAAA;EAAA,OAAS,IAAI;AAAA;AAAAC,OAAA,CAAAD,SAAA,GAAAA,SAAA"}

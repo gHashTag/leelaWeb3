@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar Component matches the snapshot 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="avatar-component"
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderRadius": 204.28571428571428,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        [
+          {
+            "height": 101.42857142857142,
+            "width": 101.42857142857142,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Image
+        source={
+          {
+            "uri": "avatar-url",
+          }
+        }
+        style={
+          [
+            {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            {
+              "height": 101.42857142857142,
+              "width": 101.42857142857142,
+            },
+            {
+              "alignItems": "center",
+              "borderRadius": 204.28571428571428,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderRadius": 385.7142857142857,
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "padding": 8.571428571428571,
+              "position": "absolute",
+            },
+            {
+              "bottom": 2.142857142857143,
+              "right": -2.142857142857143,
+            },
+            {
+              "backgroundColor": "rgb(242, 242, 242)",
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            [
+              {
+                "color": "#FFB700",
+                "fontSize": 32.14285714285714,
+              },
+              undefined,
+              {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              {},
+            ]
+          }
+          testID="time-icon"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

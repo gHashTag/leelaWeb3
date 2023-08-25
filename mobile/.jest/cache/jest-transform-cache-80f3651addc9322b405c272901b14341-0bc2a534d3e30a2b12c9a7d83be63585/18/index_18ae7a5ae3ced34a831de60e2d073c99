@@ -1,0 +1,12 @@
+6a6debf99ba92656f20d3e182a304f7a
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "utf8ToBytes", {
+  enumerable: true,
+  get: function get() {
+    return _buffer.utf8ToBytes;
+  }
+});
+var _buffer = require("./buffer");
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfYnVmZmVyIiwicmVxdWlyZSJdLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9qcy92ZW5kb3IvaW5kZXgudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IHsgdXRmOFRvQnl0ZXMgfSBmcm9tICcuL2J1ZmZlcic7XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBLElBQUFBLE9BQUEsR0FBQUMsT0FBQSJ9

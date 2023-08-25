@@ -1,0 +1,5 @@
+4d36c67066ecd5cadb51ce0f29d1d725
+module.exports = {
+      testUri:
+        "../../../src/hooks/useLeelaGame/images/three.png"
+    };

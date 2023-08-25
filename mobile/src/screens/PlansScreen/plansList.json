@@ -1,0 +1,290 @@
+{
+  "1-birth": {
+    "key": "1-birth",
+    "title": "1. Genesis (janma)"
+  },
+  "2-maya": {
+    "key": "2-maya",
+    "title": "2. Illusion (maya)"
+  },
+  "3-anger": {
+    "key": "3-anger",
+    "title": "3. Anger (krodh)"
+  },
+  "4-avarice": {
+    "key": "4-avarice",
+    "title": "4. Greed (lobh)"
+  },
+  "5-physicalplan": {
+    "key": "5-physicalplan",
+    "title": "5. Physical plane (bhu-loka)"
+  },
+  "6-delusion": {
+    "key": "6-delusion",
+    "title": "6. Delusion (moha)"
+  },
+  "7-vanity": {
+    "key": "7-vanity",
+    "title": "7. Conceit (mada)"
+  },
+  "8-greed": {
+    "key": "8-greed",
+    "title": "8. Avarice (matsar or matsarya)"
+  },
+  "9-sensualplan": {
+    "key": "9-sensualplan",
+    "title": "9. Sensual plane (kama-loka)"
+  },
+  "10-cleansing": {
+    "key": "10-cleansing",
+    "title": "10. Purification (tapa)"
+  },
+  "11-entertainment": {
+    "key": "11-entertainment",
+    "title": "11. Entertainment (Gandharvas)"
+  },
+  "12-envy": {
+    "key": "12-envy",
+    "title": "12. Envy (eirsha)"
+  },
+  "13-nullity": {
+    "key": "13-nullity",
+    "title": "13. Nullity (Antariksha)"
+  },
+  "14-astral": {
+    "key": "14-astral",
+    "title": "14. Astral plane (bhuvar-loka)"
+  },
+  "15-fantasyplan": {
+    "key": "15-fantasyplan",
+    "title": "15. Plane of fantasy (naga-loka)"
+  },
+  "16-jealousy": {
+    "key": "16-jealousy",
+    "title": "16. Jealousy (dvesha)"
+  },
+  "17-compassion": {
+    "key": "17-compassion",
+    "title": "17. Mercy (daya)"
+  },
+  "18-planofjoy": {
+    "key": "18-planofjoy",
+    "title": "18. Plane of joy (Harsha Loka)"
+  },
+  "19-plankarma": {
+    "key": "19-plankarma",
+    "title": "19. Plane of action (karma-loka)"
+  },
+  "20-charity": {
+    "key": "20-charity",
+    "title": "20. Charity (given)"
+  },
+  "21-redemption": {
+    "key": "21-redemption",
+    "title": "21. Atonement (Samana Pope)"
+  },
+  "22-plandharmas": {
+    "key": "22-plandharmas",
+    "title": "22. Plane of dharma (Dharma-loka)"
+  },
+  "23-heavenlyplan": {
+    "key": "23-heavenlyplan",
+    "title": "23. Celestial plane (svarga-loka)"
+  },
+  "24-badcompany": {
+    "key": "24-badcompany",
+    "title": "24. Bad company (ku-sang-loka)"
+  },
+  "25-goodcompany": {
+    "key": "25-goodcompany",
+    "title": "25. Good company (su-sang-loka)"
+  },
+  "26-sadness": {
+    "key": "26-sadness",
+    "title": "26. Sorrow (dukkha)"
+  },
+  "27-selflessservice": {
+    "key": "27-selflessservice",
+    "title": "27. Selfless Service (Paramartha)"
+  },
+  "28-truereligiosity": {
+    "key": "28-truereligiosity",
+    "title": "28. Apt religion (sudharma)"
+  },
+  "29-lackofreligiosity": {
+    "key": "29-lackofreligiosity",
+    "title": "29. Irreligiosity (adharma)"
+  },
+  "30-goodtrends": {
+    "key": "30-goodtrends",
+    "title": "30. Good tendencies (uttama gati)"
+  },
+  "31-planofholiness": {
+    "key": "31-planofholiness",
+    "title": "31. Plane of sanctity (yaksha-loka)"
+  },
+  "32-balanceplan": {
+    "key": "32-balanceplan",
+    "title": "32. Plane of balance (mahar-loka)"
+  },
+  "33-aramat": {
+    "key": "33-aramat",
+    "title": "33. Plane of fragrance (gandha-loka)"
+  },
+  "34-tasteplan": {
+    "key": "34-tasteplan",
+    "title": "34. Plane of taste (rasa-loka)"
+  },
+  "35-purgatory": {
+    "key": "35-purgatory",
+    "title": "35. Purgatory (naraka-loka)"
+  },
+  "36-clarityofmind": {
+    "key": "36-clarityofmind",
+    "title": "36. Clarity of consciousness (svachcha)"
+  },
+  "37-jnana": {
+    "key": "37-jnana",
+    "title": "37. True awareness (jnana)"
+  },
+  "38-pranaloka": {
+    "key": "38-pranaloka",
+    "title": "38. Plane of life energy (prana-loka)"
+  },
+  "39-apanaloka": {
+    "key": "39-apanaloka",
+    "title": "39. Plane of elimination (apana-loka)"
+  },
+  "40-vyanaloka": {
+    "key": "40-vyanaloka",
+    "title": "40. Plane of circulation (vyana-loka)"
+  },
+  "41-humanplan": {
+    "key": "41-humanplan",
+    "title": "41. Human plane (jana-loka)"
+  },
+  "42-planagni": {
+    "key": "42-planagni",
+    "title": "42. Plane of fire (Agni Loka)"
+  },
+  "43-birthofman": {
+    "key": "43-birthofman",
+    "title": "43. Birth of man (manushya janma)"
+  },
+  "44-ignorance": {
+    "key": "44-ignorance",
+    "title": "44. Ignorance (avidya)"
+  },
+  "45-correctknowledge": {
+    "key": "45-correctknowledge",
+    "title": "45. Right knowledge (suvidya)"
+  },
+  "46-distinction": {
+    "key": "46-distinction",
+    "title": "46. Conscience (vivek)"
+  },
+  "47-neutralityplan": {
+    "key": "47-neutralityplan",
+    "title": "47. Plane of neutrality (Saraswati)"
+  },
+  "48-sunnyplan": {
+    "key": "48-sunnyplan",
+    "title": "48. Solar Plane (Yamuna)"
+  },
+  "49-lunarplan": {
+    "key": "49-lunarplan",
+    "title": "49. Lunar plane (Ganges or Ganga)"
+  },
+  "50-planofasceticism": {
+    "key": "50-planofasceticism",
+    "title": "50. Plane of austerity (tapa loka)"
+  },
+  "51-earth": {
+    "key": "51-earth",
+    "title": "51. Earth (prithvi)"
+  },
+  "52-planviolence": {
+    "key": "52-planviolence",
+    "title": "52. Plane of violence (himsa-loka)"
+  },
+  "53-fluidplan": {
+    "key": "53-fluidplan",
+    "title": "53. Liquid plane (jala-loka)"
+  },
+  "54-planofspiritualityanddevotion": {
+    "key": "54-planofspiritualityanddevotion",
+    "title": "54. Spiritual devotion (bhakti-loka)"
+  },
+  "55-selfishness": {
+    "key": "55-selfishness",
+    "title": "55. Egotism (ahamkara)"
+  },
+  "56-planinitialvibrations": {
+    "key": "56-planinitialvibrations",
+    "title": "56. Plane of primal vibrations (Omkar)"
+  },
+  "57-plangas": {
+    "key": "57-plangas",
+    "title": "57. Gaseous plane (vayu-loka)"
+  },
+  "58-radianceplan": {
+    "key": "58-radianceplan",
+    "title": "58. Plane of radiation (teja-loka)"
+  },
+  "59-planeofreality": {
+    "key": "59-planeofreality",
+    "title": "59. Plane of reality (satya-loka)"
+  },
+  "60-positiveintelligence": {
+    "key": "60-positiveintelligence",
+    "title": "60. Positive intellect (subuddhi)"
+  },
+  "61-negativeintelligence": {
+    "key": "61-negativeintelligence",
+    "title": "61. Negative intellect (durbuddhi)"
+  },
+  "62-happiness": {
+    "key": "62-happiness",
+    "title": "62. Happiness (sukh)"
+  },
+  "63-tamas": {
+    "key": "63-tamas",
+    "title": "63. Darkness (tamas)"
+  },
+  "64-phenomenalplan": {
+    "key": "64-phenomenalplan",
+    "title": "64. Phenomenal plane (prakriti-loka)"
+  },
+  "65-interiorspaceplan": {
+    "key": "65-interiorspaceplan",
+    "title": "65. Plane of inner space (uranta-loka)"
+  },
+  "66-blissplan": {
+    "key": "66-blissplan",
+    "title": "66. Plane of bliss (ananda-loka)"
+  },
+  "67-planofcosmicgood": {
+    "key": "67-planofcosmicgood",
+    "title": "67. Plane of cosmic good (Rudra-loka)"
+  },
+  "68-cosmicconsciousness": {
+    "key": "68-cosmicconsciousness",
+    "title": "68. Cosmic Consciousness (Vaikuntha-loka)"
+  },
+  "69-planoftheabsolute": {
+    "key": "69-planoftheabsolute",
+    "title": "69. Absolute plane (Brahma-loka)"
+  },
+  "70-sattvaguna": {
+    "key": "70-sattvaguna",
+    "title": "70. True nature (satoguna)"
+  },
+  "71-rajogun": {
+    "key": "71-rajogun",
+    "title": "71. Activity (rajoguna)"
+  },
+  "72-tamogun": {
+    "key": "72-tamogun",
+    "title": "72. Inertia (tamoguna)"
+  }
+}

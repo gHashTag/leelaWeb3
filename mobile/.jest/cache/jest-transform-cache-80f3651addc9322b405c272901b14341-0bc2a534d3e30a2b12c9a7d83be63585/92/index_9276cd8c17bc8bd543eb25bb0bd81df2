@@ -1,0 +1,9 @@
+8e36e27b7f0640fefb21071bcc40fe6a
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ICONS = void 0;
+exports.ICONS = [require('./one.png'), require('./two.png'), require('./three.png'), require('./four.png'), require('./five.png'), require('./six.png')];
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJleHBvcnRzIiwiSUNPTlMiLCJyZXF1aXJlIl0sInNvdXJjZXMiOlsiL1VzZXJzL3BsYXlyYS9MZWVsYUFpV2ViMy9zcmMvY29tcG9uZW50cy9HZW0vaW1hZ2VzL2luZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBJQ09OUyA9IFtcbiAgcmVxdWlyZSgnLi9vbmUucG5nJyksXG4gIHJlcXVpcmUoJy4vdHdvLnBuZycpLFxuICByZXF1aXJlKCcuL3RocmVlLnBuZycpLFxuICByZXF1aXJlKCcuL2ZvdXIucG5nJyksXG4gIHJlcXVpcmUoJy4vZml2ZS5wbmcnKSxcbiAgcmVxdWlyZSgnLi9zaXgucG5nJyksXG5dXG4iXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFhQSxPQUFBLENBQUFDLEtBQUssR0FBRyxDQUNuQkMsT0FBTyxDQUFDLFdBQVcsQ0FBQyxFQUNwQkEsT0FBTyxDQUFDLFdBQVcsQ0FBQyxFQUNwQkEsT0FBTyxDQUFDLGFBQWEsQ0FBQyxFQUN0QkEsT0FBTyxDQUFDLFlBQVksQ0FBQyxFQUNyQkEsT0FBTyxDQUFDLFlBQVksQ0FBQyxFQUNyQkEsT0FBTyxDQUFDLFdBQVcsQ0FBQyxDQUNyQiJ9

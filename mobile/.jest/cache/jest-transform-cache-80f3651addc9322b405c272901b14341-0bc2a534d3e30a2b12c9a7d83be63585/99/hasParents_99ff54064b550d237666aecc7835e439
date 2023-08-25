@@ -1,0 +1,11 @@
+2620913ed5ffafe98ad97b4b6617920f
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = hasParents;
+function hasParents(parents, type) {
+  return parents.findIndex(function (el) {
+    return el.type === type;
+  }) > -1;
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJoYXNQYXJlbnRzIiwicGFyZW50cyIsInR5cGUiLCJmaW5kSW5kZXgiLCJlbCJdLCJzb3VyY2VzIjpbImhhc1BhcmVudHMuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKlxuICogQHBhcmFtIHtBcnJheX0gcGFyZW50c1xuICogQHBhcmFtIHtzdHJpbmd9IHR5cGVcbiAqIEByZXR1cm4ge2Jvb2xlYW59XG4gKi9cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGhhc1BhcmVudHMocGFyZW50cywgdHlwZSkge1xuICByZXR1cm4gcGFyZW50cy5maW5kSW5kZXgoKGVsKSA9PiBlbC50eXBlID09PSB0eXBlKSA+IC0xO1xufVxuIl0sIm1hcHBpbmdzIjoiOzs7O0FBTWUsU0FBU0EsVUFBVUEsQ0FBQ0MsT0FBTyxFQUFFQyxJQUFJLEVBQUU7RUFDaEQsT0FBT0QsT0FBTyxDQUFDRSxTQUFTLENBQUMsVUFBQ0MsRUFBRTtJQUFBLE9BQUtBLEVBQUUsQ0FBQ0YsSUFBSSxLQUFLQSxJQUFJO0VBQUEsRUFBQyxHQUFHLENBQUMsQ0FBQztBQUN6RCJ9

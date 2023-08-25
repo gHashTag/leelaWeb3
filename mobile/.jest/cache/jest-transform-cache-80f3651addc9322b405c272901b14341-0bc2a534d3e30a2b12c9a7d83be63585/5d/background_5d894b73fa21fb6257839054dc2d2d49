@@ -1,0 +1,5 @@
+d249a97fd17f358f7f590b8d740bdd05
+module.exports = {
+      testUri:
+        "../../../assets/images/background.png"
+    };

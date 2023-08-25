@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Component Text component snapshot 1`] = `
+<Text
+  ellipsizeMode="tail"
+  style={{}}
+  testID="snapshot-text"
+>
+  Snapshot Test
+</Text>
+`;

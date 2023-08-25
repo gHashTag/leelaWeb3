@@ -1,0 +1,56 @@
+828684ea8e85a57cadcdd1daeb841eba
+"use strict";
+
+var _jsxRuntime = require("react/jsx-runtime");
+var _this = this,
+  _jsxFileName = "/Users/playra/LeelaAiWeb3/src/components/Space/index.tsx";
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  var desc = Object.getOwnPropertyDescriptor(m, k);
+  if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+    desc = {
+      enumerable: true,
+      get: function get() {
+        return m[k];
+      }
+    };
+  }
+  Object.defineProperty(o, k2, desc);
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  __setModuleDefault(result, mod);
+  return result;
+};
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Space = void 0;
+var react_1 = __importStar(require("react"));
+var react_native_1 = require("react-native");
+var Space = (0, react_1.memo)(function (_ref) {
+  var height = _ref.height,
+    width = _ref.width;
+  return (0, _jsxRuntime.jsx)(react_native_1.View, {
+    testID: "space-component",
+    style: {
+      height: Number(height) || 0,
+      width: Number(width) || 0
+    }
+  });
+});
+exports.Space = Space;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJyZWFjdF8xIiwiX19pbXBvcnRTdGFyIiwicmVxdWlyZSIsInJlYWN0X25hdGl2ZV8xIiwiU3BhY2UiLCJtZW1vIiwiX3JlZiIsImhlaWdodCIsIndpZHRoIiwiX2pzeFJ1bnRpbWUiLCJqc3giLCJWaWV3IiwidGVzdElEIiwic3R5bGUiLCJOdW1iZXIiLCJleHBvcnRzIl0sInNvdXJjZXMiOlsiL1VzZXJzL3BsYXlyYS9MZWVsYUFpV2ViMy9zcmMvY29tcG9uZW50cy9TcGFjZS9pbmRleC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7bWVtb30gZnJvbSAncmVhY3QnXG5cbmltcG9ydCB7Vmlld30gZnJvbSAncmVhY3QtbmF0aXZlJ1xuXG5pbnRlcmZhY2UgU3BhY2VUIHtcbiAgaGVpZ2h0PzogbnVtYmVyIHwgc3RyaW5nXG4gIHdpZHRoPzogbnVtYmVyIHwgc3RyaW5nXG59XG5cbmNvbnN0IFNwYWNlID0gbWVtbzxTcGFjZVQ+KCh7aGVpZ2h0LCB3aWR0aH0pID0+IChcbiAgPFZpZXdcbiAgICB0ZXN0SUQ9XCJzcGFjZS1jb21wb25lbnRcIlxuICAgIHN0eWxlPXt7aGVpZ2h0OiBOdW1iZXIoaGVpZ2h0KSB8fCAwLCB3aWR0aDogTnVtYmVyKHdpZHRoKSB8fCAwfX1cbiAgLz5cbikpXG5cbmV4cG9ydCB7U3BhY2V9XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxJQUFBQSxPQUFBLEdBQUFDLFlBQUEsQ0FBQUMsT0FBQTtBQUVBLElBQUFDLGNBQUEsR0FBQUQsT0FBQTtBQU9BLElBQU1FLEtBQUssR0FBRyxJQUFBSixPQUFBLENBQUFLLElBQUksRUFBUyxVQUFBQyxJQUFBO0VBQUEsSUFBRUMsTUFBTSxHQUFBRCxJQUFBLENBQU5DLE1BQU07SUFBRUMsS0FBSyxHQUFBRixJQUFBLENBQUxFLEtBQUs7RUFBQSxPQUN4QyxJQUFBQyxXQUFBLENBQUFDLEdBQUEsRUFBQ1AsY0FBQSxDQUFBUSxJQUFJO0lBQ0hDLE1BQU0sRUFBQyxpQkFBaUI7SUFDeEJDLEtBQUssRUFBRTtNQUFDTixNQUFNLEVBQUVPLE1BQU0sQ0FBQ1AsTUFBTSxDQUFDLElBQUksQ0FBQztNQUFFQyxLQUFLLEVBQUVNLE1BQU0sQ0FBQ04sS0FBSyxDQUFDLElBQUk7SUFBQztFQUFFLEVBQ2hFO0FBQUEsQ0FDSCxDQUFDO0FBRU1PLE9BQUEsQ0FBQVgsS0FBQSxHQUFBQSxLQUFBIn0=

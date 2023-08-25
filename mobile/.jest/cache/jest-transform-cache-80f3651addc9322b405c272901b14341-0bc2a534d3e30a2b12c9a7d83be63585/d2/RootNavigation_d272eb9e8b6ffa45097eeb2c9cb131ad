@@ -1,0 +1,76 @@
+04892e14718a74c85974eae5df2d1f04
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  var desc = Object.getOwnPropertyDescriptor(m, k);
+  if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+    desc = {
+      enumerable: true,
+      get: function get() {
+        return m[k];
+      }
+    };
+  }
+  Object.defineProperty(o, k2, desc);
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  __setModuleDefault(result, mod);
+  return result;
+};
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.LightTheme = exports.DarkTheme = exports.isReadyRef = exports.goBack = exports.navigate = exports.navigationRef = void 0;
+var React = __importStar(require("react"));
+var cons_1 = require("./");
+exports.navigationRef = React.createRef();
+function navigate(name, params) {
+  var _exports$navigationRe;
+  (_exports$navigationRe = exports.navigationRef.current) == null ? void 0 : _exports$navigationRe.navigate(name, params);
+}
+exports.navigate = navigate;
+var goBack = function goBack() {
+  if (exports.navigationRef.current) {
+    exports.navigationRef.current.goBack();
+  }
+};
+exports.goBack = goBack;
+exports.isReadyRef = React.createRef();
+exports.DarkTheme = {
+  dark: true,
+  colors: {
+    primary: cons_1.secondary,
+    background: cons_1.black,
+    card: cons_1.white,
+    text: cons_1.white,
+    border: cons_1.dimGray,
+    notification: cons_1.red
+  }
+};
+exports.LightTheme = {
+  dark: false,
+  colors: {
+    primary: cons_1.secondary,
+    background: cons_1.lightGray,
+    card: cons_1.white,
+    text: cons_1.black,
+    border: cons_1.dimGray,
+    notification: cons_1.red
+  }
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJSZWFjdCIsIl9faW1wb3J0U3RhciIsInJlcXVpcmUiLCJjb25zXzEiLCJleHBvcnRzIiwibmF2aWdhdGlvblJlZiIsImNyZWF0ZVJlZiIsIm5hdmlnYXRlIiwibmFtZSIsInBhcmFtcyIsIl9leHBvcnRzJG5hdmlnYXRpb25SZSIsImN1cnJlbnQiLCJnb0JhY2siLCJpc1JlYWR5UmVmIiwiRGFya1RoZW1lIiwiZGFyayIsImNvbG9ycyIsInByaW1hcnkiLCJzZWNvbmRhcnkiLCJiYWNrZ3JvdW5kIiwiYmxhY2siLCJjYXJkIiwid2hpdGUiLCJ0ZXh0IiwiYm9yZGVyIiwiZGltR3JheSIsIm5vdGlmaWNhdGlvbiIsInJlZCIsIkxpZ2h0VGhlbWUiLCJsaWdodEdyYXkiXSwic291cmNlcyI6WyIvVXNlcnMvcGxheXJhL0xlZWxhQWlXZWIzL3NyYy9jb25zL1Jvb3ROYXZpZ2F0aW9uLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIFJlYWN0IGZyb20gJ3JlYWN0J1xuXG5pbXBvcnQgeyBibGFjaywgZGltR3JheSwgbGlnaHRHcmF5LCByZWQsIHNlY29uZGFyeSwgd2hpdGUgfSBmcm9tICdjb25zJ1xuXG5leHBvcnQgY29uc3QgbmF2aWdhdGlvblJlZiA9IFJlYWN0LmNyZWF0ZVJlZjxhbnk+KClcblxuZXhwb3J0IGZ1bmN0aW9uIG5hdmlnYXRlKG5hbWU6IHN0cmluZywgcGFyYW1zPzogb2JqZWN0KSB7XG4gIG5hdmlnYXRpb25SZWYuY3VycmVudD8ubmF2aWdhdGUobmFtZSwgcGFyYW1zKVxufVxuXG5leHBvcnQgY29uc3QgZ29CYWNrID0gKCkgPT4ge1xuICBpZiAobmF2aWdhdGlvblJlZi5jdXJyZW50KSB7XG4gICAgbmF2aWdhdGlvblJlZi5jdXJyZW50LmdvQmFjaygpXG4gIH1cbn1cblxuZXhwb3J0IGNvbnN0IGlzUmVhZHlSZWYgPSBSZWFjdC5jcmVhdGVSZWY8Ym9vbGVhbj4oKVxuXG5leHBvcnQgY29uc3QgRGFya1RoZW1lID0ge1xuICBkYXJrOiB0cnVlLFxuICBjb2xvcnM6IHtcbiAgICBwcmltYXJ5OiBzZWNvbmRhcnksXG4gICAgYmFja2dyb3VuZDogYmxhY2ssXG4gICAgY2FyZDogd2hpdGUsXG4gICAgdGV4dDogd2hpdGUsXG4gICAgYm9yZGVyOiBkaW1HcmF5LFxuICAgIG5vdGlmaWNhdGlvbjogcmVkLFxuICB9LFxufVxuXG5leHBvcnQgY29uc3QgTGlnaHRUaGVtZSA9IHtcbiAgZGFyazogZmFsc2UsXG4gIGNvbG9yczoge1xuICAgIHByaW1hcnk6IHNlY29uZGFyeSxcbiAgICBiYWNrZ3JvdW5kOiBsaWdodEdyYXksXG4gICAgY2FyZDogd2hpdGUsXG4gICAgdGV4dDogYmxhY2ssXG4gICAgYm9yZGVyOiBkaW1HcmF5LFxuICAgIG5vdGlmaWNhdGlvbjogcmVkLFxuICB9LFxufVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsSUFBQUEsS0FBQSxHQUFBQyxZQUFBLENBQUFDLE9BQUE7QUFFQSxJQUFBQyxNQUFBLEdBQUFELE9BQUE7QUFFYUUsT0FBQSxDQUFBQyxhQUFhLEdBQUdMLEtBQUssQ0FBQ00sU0FBUyxFQUFPO0FBRW5ELFNBQWdCQyxRQUFRQSxDQUFDQyxJQUFZLEVBQUVDLE1BQWU7RUFBQSxJQUFBQyxxQkFBQTtFQUNwRCxDQUFBQSxxQkFBQSxHQUFBTixPQUFBLENBQUFDLGFBQWEsQ0FBQ00sT0FBTyxxQkFBckJELHFCQUFBLENBQXVCSCxRQUFRLENBQUNDLElBQUksRUFBRUMsTUFBTSxDQUFDO0FBQy9DO0FBRkFMLE9BQUEsQ0FBQUcsUUFBQSxHQUFBQSxRQUFBO0FBSU8sSUFBTUssTUFBTSxHQUFHLFNBQVRBLE1BQU1BLENBQUEsRUFBUTtFQUN6QixJQUFJUixPQUFBLENBQUFDLGFBQWEsQ0FBQ00sT0FBTyxFQUFFO0lBQ3pCUCxPQUFBLENBQUFDLGFBQWEsQ0FBQ00sT0FBTyxDQUFDQyxNQUFNLEVBQUU7O0FBRWxDLENBQUM7QUFKWVIsT0FBQSxDQUFBUSxNQUFNLEdBQUFBLE1BQUE7QUFNTlIsT0FBQSxDQUFBUyxVQUFVLEdBQUdiLEtBQUssQ0FBQ00sU0FBUyxFQUFXO0FBRXZDRixPQUFBLENBQUFVLFNBQVMsR0FBRztFQUN2QkMsSUFBSSxFQUFFLElBQUk7RUFDVkMsTUFBTSxFQUFFO0lBQ05DLE9BQU8sRUFBRWQsTUFBQSxDQUFBZSxTQUFTO0lBQ2xCQyxVQUFVLEVBQUVoQixNQUFBLENBQUFpQixLQUFLO0lBQ2pCQyxJQUFJLEVBQUVsQixNQUFBLENBQUFtQixLQUFLO0lBQ1hDLElBQUksRUFBRXBCLE1BQUEsQ0FBQW1CLEtBQUs7SUFDWEUsTUFBTSxFQUFFckIsTUFBQSxDQUFBc0IsT0FBTztJQUNmQyxZQUFZLEVBQUV2QixNQUFBLENBQUF3Qjs7Q0FFakI7QUFFWXZCLE9BQUEsQ0FBQXdCLFVBQVUsR0FBRztFQUN4QmIsSUFBSSxFQUFFLEtBQUs7RUFDWEMsTUFBTSxFQUFFO0lBQ05DLE9BQU8sRUFBRWQsTUFBQSxDQUFBZSxTQUFTO0lBQ2xCQyxVQUFVLEVBQUVoQixNQUFBLENBQUEwQixTQUFTO0lBQ3JCUixJQUFJLEVBQUVsQixNQUFBLENBQUFtQixLQUFLO0lBQ1hDLElBQUksRUFBRXBCLE1BQUEsQ0FBQWlCLEtBQUs7SUFDWEksTUFBTSxFQUFFckIsTUFBQSxDQUFBc0IsT0FBTztJQUNmQyxZQUFZLEVBQUV2QixNQUFBLENBQUF3Qjs7Q0FFakIifQ==

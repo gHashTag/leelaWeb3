@@ -1,0 +1,5 @@
+68f7ff71558d6cc9661b5c8a0688112f
+module.exports = {
+      testUri:
+        "../../../src/components/Dice/assets_light/2.png"
+    };

@@ -1,0 +1,5 @@
+c8944dd462d185a5e22a2a409544ecf6
+module.exports = {
+      testUri:
+        "../../../src/components/Gem/images/two.png"
+    };

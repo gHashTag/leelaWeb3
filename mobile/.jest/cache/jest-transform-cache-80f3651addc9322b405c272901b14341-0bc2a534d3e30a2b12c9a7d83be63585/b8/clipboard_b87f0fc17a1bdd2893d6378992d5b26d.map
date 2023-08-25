@@ -1,0 +1,1 @@
+{"version":3,"names":["Clipboard","setString","jest","fn","_default","exports","default"],"sources":["clipboard.js"],"sourcesContent":["const Clipboard = {\n  setString: jest.fn(),\n}\n\nexport default Clipboard\n"],"mappings":";;;;AAAA,IAAMA,SAAS,GAAG;EAChBC,SAAS,EAAEC,IAAI,CAACC,EAAE,CAAC;AACrB,CAAC;AAAA,IAAAC,QAAA,GAEcJ,SAAS;AAAAK,OAAA,CAAAC,OAAA,GAAAF,QAAA"}

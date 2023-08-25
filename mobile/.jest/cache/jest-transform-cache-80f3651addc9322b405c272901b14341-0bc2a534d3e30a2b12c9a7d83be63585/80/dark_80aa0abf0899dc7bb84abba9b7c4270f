@@ -1,0 +1,5 @@
+d4692f24677da26d9d24e5c92269ea5f
+module.exports = {
+      testUri:
+        "../../../src/components/GameBoard/images/dark.png"
+    };

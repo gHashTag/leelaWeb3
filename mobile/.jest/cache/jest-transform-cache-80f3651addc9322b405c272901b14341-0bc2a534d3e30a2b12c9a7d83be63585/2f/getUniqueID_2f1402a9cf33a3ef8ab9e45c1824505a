@@ -1,0 +1,11 @@
+d9edcbd9d1f8b638e4d4f35c8b349721
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getUniqueID;
+var uuid = new Date().getTime();
+function getUniqueID() {
+  uuid++;
+  return `rnmr_${uuid.toString(16)}`;
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJ1dWlkIiwiRGF0ZSIsImdldFRpbWUiLCJnZXRVbmlxdWVJRCIsInRvU3RyaW5nIl0sInNvdXJjZXMiOlsiZ2V0VW5pcXVlSUQuanMiXSwic291cmNlc0NvbnRlbnQiOlsibGV0IHV1aWQgPSBuZXcgRGF0ZSgpLmdldFRpbWUoKTtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gZ2V0VW5pcXVlSUQoKSB7XG4gIHV1aWQrKztcbiAgcmV0dXJuIGBybm1yXyR7dXVpZC50b1N0cmluZygxNil9YDtcbn1cbiJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLElBQUlBLElBQUksR0FBRyxJQUFJQyxJQUFJLENBQUMsQ0FBQyxDQUFDQyxPQUFPLENBQUMsQ0FBQztBQUVoQixTQUFTQyxXQUFXQSxDQUFBLEVBQUc7RUFDcENILElBQUksRUFBRTtFQUNOLE9BQVEsUUFBT0EsSUFBSSxDQUFDSSxRQUFRLENBQUMsRUFBRSxDQUFFLEVBQUM7QUFDcEMifQ==

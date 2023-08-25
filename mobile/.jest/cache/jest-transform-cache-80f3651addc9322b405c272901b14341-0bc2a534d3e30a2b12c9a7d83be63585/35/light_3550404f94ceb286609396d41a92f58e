@@ -1,0 +1,5 @@
+ea7ad6788ef5e68093e760101d816911
+module.exports = {
+      testUri:
+        "../../../src/components/GameBoard/images/light.png"
+    };

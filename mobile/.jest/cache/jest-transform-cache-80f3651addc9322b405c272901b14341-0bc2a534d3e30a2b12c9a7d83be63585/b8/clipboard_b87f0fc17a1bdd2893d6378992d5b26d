@@ -1,0 +1,11 @@
+6bca0923a11be8a8880f5fdfe10210db
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var Clipboard = {
+  setString: jest.fn()
+};
+var _default = Clipboard;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJDbGlwYm9hcmQiLCJzZXRTdHJpbmciLCJqZXN0IiwiZm4iLCJfZGVmYXVsdCIsImV4cG9ydHMiLCJkZWZhdWx0Il0sInNvdXJjZXMiOlsiY2xpcGJvYXJkLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImNvbnN0IENsaXBib2FyZCA9IHtcbiAgc2V0U3RyaW5nOiBqZXN0LmZuKCksXG59XG5cbmV4cG9ydCBkZWZhdWx0IENsaXBib2FyZFxuIl0sIm1hcHBpbmdzIjoiOzs7O0FBQUEsSUFBTUEsU0FBUyxHQUFHO0VBQ2hCQyxTQUFTLEVBQUVDLElBQUksQ0FBQ0MsRUFBRSxDQUFDO0FBQ3JCLENBQUM7QUFBQSxJQUFBQyxRQUFBLEdBRWNKLFNBQVM7QUFBQUssT0FBQSxDQUFBQyxPQUFBLEdBQUFGLFFBQUEifQ==

@@ -1,0 +1,5 @@
+3e2a1c718f7420a36e7861132a1a8419
+module.exports = {
+      testUri:
+        "../../../src/components/Dice/assets/2.png"
+    };

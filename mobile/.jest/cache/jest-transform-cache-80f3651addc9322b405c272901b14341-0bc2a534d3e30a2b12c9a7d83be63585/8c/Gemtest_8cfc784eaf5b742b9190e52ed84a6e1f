@@ -1,0 +1,40 @@
+eb8e9734c0b19abd99e26430105437c8
+"use strict";
+
+var _jsxRuntime = require("react/jsx-runtime");
+var _this = this,
+  _jsxFileName = "/Users/playra/LeelaAiWeb3/src/components/Gem/Gem.test.tsx";
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var react_1 = __importDefault(require("react"));
+var react_native_1 = require("@testing-library/react-native");
+var __1 = require("../");
+describe('Gem Component', function () {
+  test('should have the correct testID prop', function () {
+    var _ref = (0, react_native_1.render)((0, _jsxRuntime.jsx)(__1.Gem, {
+        planNumber: 5,
+        onPress: function onPress() {}
+      })),
+      getByTestId = _ref.getByTestId;
+    var gemImage = getByTestId('gem-image');
+    expect(gemImage).toBeDefined();
+  });
+  test('should call the onPress function when pressed', function () {
+    var onPressMock = jest.fn();
+    var _ref2 = (0, react_native_1.render)((0, _jsxRuntime.jsx)(__1.Gem, {
+        planNumber: 5,
+        onPress: onPressMock
+      })),
+      getByTestId = _ref2.getByTestId;
+    var gemContainer = getByTestId('gem-container');
+    react_native_1.fireEvent.press(gemContainer);
+    expect(onPressMock).toHaveBeenCalled();
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJyZWFjdF8xIiwiX19pbXBvcnREZWZhdWx0IiwicmVxdWlyZSIsInJlYWN0X25hdGl2ZV8xIiwiX18xIiwiZGVzY3JpYmUiLCJ0ZXN0IiwiX3JlZiIsInJlbmRlciIsIl9qc3hSdW50aW1lIiwianN4IiwiR2VtIiwicGxhbk51bWJlciIsIm9uUHJlc3MiLCJnZXRCeVRlc3RJZCIsImdlbUltYWdlIiwiZXhwZWN0IiwidG9CZURlZmluZWQiLCJvblByZXNzTW9jayIsImplc3QiLCJmbiIsIl9yZWYyIiwiZ2VtQ29udGFpbmVyIiwiZmlyZUV2ZW50IiwicHJlc3MiLCJ0b0hhdmVCZWVuQ2FsbGVkIl0sInNvdXJjZXMiOlsiL1VzZXJzL3BsYXlyYS9MZWVsYUFpV2ViMy9zcmMvY29tcG9uZW50cy9HZW0vR2VtLnRlc3QudHN4Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIHNyYy9jb21wb25lbnRzL0dlbS9HZW0udGVzdC50c3hcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcbmltcG9ydCB7cmVuZGVyLCBmaXJlRXZlbnR9IGZyb20gJ0B0ZXN0aW5nLWxpYnJhcnkvcmVhY3QtbmF0aXZlJ1xuaW1wb3J0IHtHZW19IGZyb20gJy4uLydcblxuZGVzY3JpYmUoJ0dlbSBDb21wb25lbnQnLCAoKSA9PiB7XG4gIHRlc3QoJ3Nob3VsZCBoYXZlIHRoZSBjb3JyZWN0IHRlc3RJRCBwcm9wJywgKCkgPT4ge1xuICAgIGNvbnN0IHtnZXRCeVRlc3RJZH0gPSByZW5kZXIoPEdlbSBwbGFuTnVtYmVyPXs1fSBvblByZXNzPXsoKSA9PiB7fX0gLz4pXG4gICAgY29uc3QgZ2VtSW1hZ2UgPSBnZXRCeVRlc3RJZCgnZ2VtLWltYWdlJylcbiAgICBleHBlY3QoZ2VtSW1hZ2UpLnRvQmVEZWZpbmVkKClcbiAgfSlcblxuICB0ZXN0KCdzaG91bGQgY2FsbCB0aGUgb25QcmVzcyBmdW5jdGlvbiB3aGVuIHByZXNzZWQnLCAoKSA9PiB7XG4gICAgY29uc3Qgb25QcmVzc01vY2sgPSBqZXN0LmZuKClcbiAgICBjb25zdCB7Z2V0QnlUZXN0SWR9ID0gcmVuZGVyKDxHZW0gcGxhbk51bWJlcj17NX0gb25QcmVzcz17b25QcmVzc01vY2t9IC8+KVxuICAgIGNvbnN0IGdlbUNvbnRhaW5lciA9IGdldEJ5VGVzdElkKCdnZW0tY29udGFpbmVyJylcbiAgICBmaXJlRXZlbnQucHJlc3MoZ2VtQ29udGFpbmVyKVxuICAgIGV4cGVjdChvblByZXNzTW9jaykudG9IYXZlQmVlbkNhbGxlZCgpXG4gIH0pXG59KVxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQ0EsSUFBQUEsT0FBQSxHQUFBQyxlQUFBLENBQUFDLE9BQUE7QUFDQSxJQUFBQyxjQUFBLEdBQUFELE9BQUE7QUFDQSxJQUFBRSxHQUFBLEdBQUFGLE9BQUE7QUFFQUcsUUFBUSxDQUFDLGVBQWUsRUFBRSxZQUFLO0VBQzdCQyxJQUFJLENBQUMscUNBQXFDLEVBQUUsWUFBSztJQUMvQyxJQUFBQyxJQUFBLEdBQXNCLElBQUFKLGNBQUEsQ0FBQUssTUFBTSxFQUFDLElBQUFDLFdBQUEsQ0FBQUMsR0FBQSxFQUFDTixHQUFBLENBQUFPLEdBQUc7UUFBQ0MsVUFBVSxFQUFFLENBQUU7UUFBQ0MsT0FBTyxFQUFFLFNBQUFBLFFBQUEsRUFBSyxDQUFFO01BQUUsRUFBRyxDQUFDO01BQWhFQyxXQUFXLEdBQUFQLElBQUEsQ0FBWE8sV0FBVztJQUNsQixJQUFNQyxRQUFRLEdBQUdELFdBQVcsQ0FBQyxXQUFXLENBQUM7SUFDekNFLE1BQU0sQ0FBQ0QsUUFBUSxDQUFDLENBQUNFLFdBQVcsRUFBRTtFQUNoQyxDQUFDLENBQUM7RUFFRlgsSUFBSSxDQUFDLCtDQUErQyxFQUFFLFlBQUs7SUFDekQsSUFBTVksV0FBVyxHQUFHQyxJQUFJLENBQUNDLEVBQUUsRUFBRTtJQUM3QixJQUFBQyxLQUFBLEdBQXNCLElBQUFsQixjQUFBLENBQUFLLE1BQU0sRUFBQyxJQUFBQyxXQUFBLENBQUFDLEdBQUEsRUFBQ04sR0FBQSxDQUFBTyxHQUFHO1FBQUNDLFVBQVUsRUFBRSxDQUFFO1FBQUNDLE9BQU8sRUFBRUs7TUFBWSxFQUFHLENBQUM7TUFBbkVKLFdBQVcsR0FBQU8sS0FBQSxDQUFYUCxXQUFXO0lBQ2xCLElBQU1RLFlBQVksR0FBR1IsV0FBVyxDQUFDLGVBQWUsQ0FBQztJQUNqRFgsY0FBQSxDQUFBb0IsU0FBUyxDQUFDQyxLQUFLLENBQUNGLFlBQVksQ0FBQztJQUM3Qk4sTUFBTSxDQUFDRSxXQUFXLENBQUMsQ0FBQ08sZ0JBQWdCLEVBQUU7RUFDeEMsQ0FBQyxDQUFDO0FBQ0osQ0FBQyxDQUFDIn0=

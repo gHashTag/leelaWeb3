@@ -1,0 +1,5 @@
+8f3931afb0251c091c86829ce8ad6712
+module.exports = {
+      testUri:
+        "../../../src/components/Buttons/ButtonEdit/edit.png"
+    };

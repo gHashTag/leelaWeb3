@@ -1,0 +1,21 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "types": ["jest"],
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    // "typeRoots": ["node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"],
+      "components/*": ["./src/components/*"],
+      "cons/*": ["./src/cons/*"],
+      "screens/*": ["./src/screens/*"],
+      "locales/*": ["./src/locales/*"],
+      "hooks/*": ["./src/hooks/*"],
+      "types/*": ["./src/types/*"],
+      "helpers/*": ["src/helpers/*"],
+      "graph/*": ["src/graph/*"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+ec21e89d8e61b4d241b6ae8a8fca92b9
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.GameBoardImage = void 0;
+exports.GameBoardImage = [{
+  path: require("./light.png"),
+  title: 'light'
+}, {
+  path: require("./light.png"),
+  title: 'dark'
+}];
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJleHBvcnRzIiwiR2FtZUJvYXJkSW1hZ2UiLCJwYXRoIiwicmVxdWlyZSIsInRpdGxlIl0sInNvdXJjZXMiOlsiL1VzZXJzL3BsYXlyYS9MZWVsYUFpV2ViMy9zcmMvY29tcG9uZW50cy9HYW1lQm9hcmQvaW1hZ2VzL2luZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBHYW1lQm9hcmRJbWFnZSA9IFtcbiAge1xuICAgIHBhdGg6IHJlcXVpcmUoJy4vbGlnaHQucG5nJyksXG4gICAgdGl0bGU6ICdsaWdodCcsXG4gIH0sXG4gIHtcbiAgICBwYXRoOiByZXF1aXJlKCcuL2xpZ2h0LnBuZycpLFxuICAgIHRpdGxlOiAnZGFyaycsXG4gIH0sXG5dXG4iXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFhQSxPQUFBLENBQUFDLGNBQWMsR0FBRyxDQUM1QjtFQUNFQyxJQUFJLEVBQUVDLE9BQU8sY0FBYyxDQUFDO0VBQzVCQyxLQUFLLEVBQUU7Q0FDUixFQUNEO0VBQ0VGLElBQUksRUFBRUMsT0FBTyxjQUFjLENBQUM7RUFDNUJDLEtBQUssRUFBRTtDQUNSLENBQ0YifQ==

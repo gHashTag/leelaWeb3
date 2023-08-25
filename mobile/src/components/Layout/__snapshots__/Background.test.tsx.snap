@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Background Component renders correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    [
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "flex-start",
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "#F5F7F8",
+      },
+    ]
+  }
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../assets/images/background.png",
+      }
+    }
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    testID="child-text"
+  >
+    Hello, World!
+  </Text>
+</View>
+`;

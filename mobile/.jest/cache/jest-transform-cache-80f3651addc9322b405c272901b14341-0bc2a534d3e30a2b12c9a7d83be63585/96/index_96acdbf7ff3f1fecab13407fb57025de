@@ -1,0 +1,15 @@
+166c8a529f3ac7f4795293ea86eab621
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ICONS = void 0;
+exports.ICONS = [{
+  path: require('./light.png'),
+  title: 'light'
+}, {
+  path: require('./dark.png'),
+  title: 'dark'
+}];
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJleHBvcnRzIiwiSUNPTlMiLCJwYXRoIiwicmVxdWlyZSIsInRpdGxlIl0sInNvdXJjZXMiOlsiL1VzZXJzL3BsYXlyYS9MZWVsYUFpV2ViMy9zcmMvY29tcG9uZW50cy9HYW1lQm9hcmQvaW1hZ2VzL2luZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBJQ09OUyA9IFtcbiAge1xuICAgIHBhdGg6IHJlcXVpcmUoJy4vbGlnaHQucG5nJyksXG4gICAgdGl0bGU6ICdsaWdodCdcbiAgfSxcbiAge1xuICAgIHBhdGg6IHJlcXVpcmUoJy4vZGFyay5wbmcnKSxcbiAgICB0aXRsZTogJ2RhcmsnXG4gIH1cbl1cbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQWFBLE9BQUEsQ0FBQUMsS0FBSyxHQUFHLENBQ25CO0VBQ0VDLElBQUksRUFBRUMsT0FBTyxDQUFDLGFBQWEsQ0FBQztFQUM1QkMsS0FBSyxFQUFFO0NBQ1IsRUFDRDtFQUNFRixJQUFJLEVBQUVDLE9BQU8sQ0FBQyxZQUFZLENBQUM7RUFDM0JDLEtBQUssRUFBRTtDQUNSLENBQ0YifQ==

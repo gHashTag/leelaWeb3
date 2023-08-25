@@ -1,0 +1,6 @@
+d32e8dde4eb32febc9d9b43571ae6db9
+module.exports = {
+  LEELA_ID: 'mock-leela-id',
+  OPEN_AI_KEY: 'mock-open-ai-key'
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJtb2R1bGUiLCJleHBvcnRzIiwiTEVFTEFfSUQiLCJPUEVOX0FJX0tFWSJdLCJzb3VyY2VzIjpbIkBlbnYuanMiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSB7XG4gIExFRUxBX0lEOiAnbW9jay1sZWVsYS1pZCcsXG4gIE9QRU5fQUlfS0VZOiAnbW9jay1vcGVuLWFpLWtleSdcbn1cbiJdLCJtYXBwaW5ncyI6IkFBQUFBLE1BQU0sQ0FBQ0MsT0FBTyxHQUFHO0VBQ2ZDLFFBQVEsRUFBRSxlQUFlO0VBQ3pCQyxXQUFXLEVBQUU7QUFDZixDQUFDIn0=

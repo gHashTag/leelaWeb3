@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CenterView Component renders children correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+  testID="center-view"
+>
+  <Text>
+    Centered Content
+  </Text>
+</View>
+`;

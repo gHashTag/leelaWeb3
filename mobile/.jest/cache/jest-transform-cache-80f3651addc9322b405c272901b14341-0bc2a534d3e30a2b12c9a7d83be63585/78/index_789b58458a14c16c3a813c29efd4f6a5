@@ -1,0 +1,296 @@
+63f18580d6cc52ace9618b94b4b05c97
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "BrowserIntegrations", {
+  enumerable: true,
+  get: function get() {
+    return _react.Integrations;
+  }
+});
+Object.defineProperty(exports, "ErrorBoundary", {
+  enumerable: true,
+  get: function get() {
+    return _react.ErrorBoundary;
+  }
+});
+Object.defineProperty(exports, "Hub", {
+  enumerable: true,
+  get: function get() {
+    return _core.Hub;
+  }
+});
+exports.Integrations = void 0;
+Object.defineProperty(exports, "Profiler", {
+  enumerable: true,
+  get: function get() {
+    return _react.Profiler;
+  }
+});
+Object.defineProperty(exports, "ReactNativeClient", {
+  enumerable: true,
+  get: function get() {
+    return _client.ReactNativeClient;
+  }
+});
+Object.defineProperty(exports, "ReactNativeNavigationInstrumentation", {
+  enumerable: true,
+  get: function get() {
+    return _tracing.ReactNativeNavigationInstrumentation;
+  }
+});
+Object.defineProperty(exports, "ReactNativeTracing", {
+  enumerable: true,
+  get: function get() {
+    return _tracing.ReactNativeTracing;
+  }
+});
+Object.defineProperty(exports, "ReactNavigationInstrumentation", {
+  enumerable: true,
+  get: function get() {
+    return _tracing.ReactNavigationInstrumentation;
+  }
+});
+Object.defineProperty(exports, "ReactNavigationV4Instrumentation", {
+  enumerable: true,
+  get: function get() {
+    return _tracing.ReactNavigationV4Instrumentation;
+  }
+});
+Object.defineProperty(exports, "ReactNavigationV5Instrumentation", {
+  enumerable: true,
+  get: function get() {
+    return _tracing.ReactNavigationV5Instrumentation;
+  }
+});
+Object.defineProperty(exports, "RoutingInstrumentation", {
+  enumerable: true,
+  get: function get() {
+    return _tracing.RoutingInstrumentation;
+  }
+});
+Object.defineProperty(exports, "SDK_NAME", {
+  enumerable: true,
+  get: function get() {
+    return _version.SDK_NAME;
+  }
+});
+Object.defineProperty(exports, "SDK_VERSION", {
+  enumerable: true,
+  get: function get() {
+    return _version.SDK_VERSION;
+  }
+});
+Object.defineProperty(exports, "Scope", {
+  enumerable: true,
+  get: function get() {
+    return _core.Scope;
+  }
+});
+Object.defineProperty(exports, "TouchEventBoundary", {
+  enumerable: true,
+  get: function get() {
+    return _touchevents.TouchEventBoundary;
+  }
+});
+Object.defineProperty(exports, "addBreadcrumb", {
+  enumerable: true,
+  get: function get() {
+    return _core.addBreadcrumb;
+  }
+});
+Object.defineProperty(exports, "addGlobalEventProcessor", {
+  enumerable: true,
+  get: function get() {
+    return _core.addGlobalEventProcessor;
+  }
+});
+Object.defineProperty(exports, "captureEvent", {
+  enumerable: true,
+  get: function get() {
+    return _core.captureEvent;
+  }
+});
+Object.defineProperty(exports, "captureException", {
+  enumerable: true,
+  get: function get() {
+    return _core.captureException;
+  }
+});
+Object.defineProperty(exports, "captureMessage", {
+  enumerable: true,
+  get: function get() {
+    return _core.captureMessage;
+  }
+});
+Object.defineProperty(exports, "captureUserFeedback", {
+  enumerable: true,
+  get: function get() {
+    return _sdk.captureUserFeedback;
+  }
+});
+Object.defineProperty(exports, "close", {
+  enumerable: true,
+  get: function get() {
+    return _sdk.close;
+  }
+});
+Object.defineProperty(exports, "configureScope", {
+  enumerable: true,
+  get: function get() {
+    return _sdk.configureScope;
+  }
+});
+Object.defineProperty(exports, "createReduxEnhancer", {
+  enumerable: true,
+  get: function get() {
+    return _react.createReduxEnhancer;
+  }
+});
+Object.defineProperty(exports, "flush", {
+  enumerable: true,
+  get: function get() {
+    return _sdk.flush;
+  }
+});
+Object.defineProperty(exports, "getCurrentHub", {
+  enumerable: true,
+  get: function get() {
+    return _core.getCurrentHub;
+  }
+});
+Object.defineProperty(exports, "getHubFromCarrier", {
+  enumerable: true,
+  get: function get() {
+    return _core.getHubFromCarrier;
+  }
+});
+Object.defineProperty(exports, "init", {
+  enumerable: true,
+  get: function get() {
+    return _sdk.init;
+  }
+});
+Object.defineProperty(exports, "lastEventId", {
+  enumerable: true,
+  get: function get() {
+    return _browser.lastEventId;
+  }
+});
+Object.defineProperty(exports, "nativeCrash", {
+  enumerable: true,
+  get: function get() {
+    return _sdk.nativeCrash;
+  }
+});
+Object.defineProperty(exports, "sentryTraceGesture", {
+  enumerable: true,
+  get: function get() {
+    return _tracing.sentryTraceGesture;
+  }
+});
+Object.defineProperty(exports, "setContext", {
+  enumerable: true,
+  get: function get() {
+    return _core.setContext;
+  }
+});
+Object.defineProperty(exports, "setDist", {
+  enumerable: true,
+  get: function get() {
+    return _sdk.setDist;
+  }
+});
+Object.defineProperty(exports, "setExtra", {
+  enumerable: true,
+  get: function get() {
+    return _core.setExtra;
+  }
+});
+Object.defineProperty(exports, "setExtras", {
+  enumerable: true,
+  get: function get() {
+    return _core.setExtras;
+  }
+});
+Object.defineProperty(exports, "setRelease", {
+  enumerable: true,
+  get: function get() {
+    return _sdk.setRelease;
+  }
+});
+Object.defineProperty(exports, "setTag", {
+  enumerable: true,
+  get: function get() {
+    return _core.setTag;
+  }
+});
+Object.defineProperty(exports, "setTags", {
+  enumerable: true,
+  get: function get() {
+    return _core.setTags;
+  }
+});
+Object.defineProperty(exports, "setUser", {
+  enumerable: true,
+  get: function get() {
+    return _core.setUser;
+  }
+});
+Object.defineProperty(exports, "startTransaction", {
+  enumerable: true,
+  get: function get() {
+    return _core.startTransaction;
+  }
+});
+Object.defineProperty(exports, "useProfiler", {
+  enumerable: true,
+  get: function get() {
+    return _react.useProfiler;
+  }
+});
+Object.defineProperty(exports, "withErrorBoundary", {
+  enumerable: true,
+  get: function get() {
+    return _react.withErrorBoundary;
+  }
+});
+Object.defineProperty(exports, "withProfiler", {
+  enumerable: true,
+  get: function get() {
+    return _react.withProfiler;
+  }
+});
+Object.defineProperty(exports, "withScope", {
+  enumerable: true,
+  get: function get() {
+    return _sdk.withScope;
+  }
+});
+Object.defineProperty(exports, "withTouchEventBoundary", {
+  enumerable: true,
+  get: function get() {
+    return _touchevents.withTouchEventBoundary;
+  }
+});
+Object.defineProperty(exports, "wrap", {
+  enumerable: true,
+  get: function get() {
+    return _sdk.wrap;
+  }
+});
+var _core = require("@sentry/core");
+var _measurements = require("./measurements");
+var _react = require("@sentry/react");
+var _browser = require("@sentry/browser");
+var Integrations = _interopRequireWildcard(require("./integrations"));
+exports.Integrations = Integrations;
+var _version = require("./version");
+var _client = require("./client");
+var _sdk = require("./sdk");
+var _touchevents = require("./touchevents");
+var _tracing = require("./tracing");
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+(0, _measurements._addTracingExtensions)();
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfY29yZSIsInJlcXVpcmUiLCJfbWVhc3VyZW1lbnRzIiwiX3JlYWN0IiwiX2Jyb3dzZXIiLCJJbnRlZ3JhdGlvbnMiLCJfaW50ZXJvcFJlcXVpcmVXaWxkY2FyZCIsImV4cG9ydHMiLCJfdmVyc2lvbiIsIl9jbGllbnQiLCJfc2RrIiwiX3RvdWNoZXZlbnRzIiwiX3RyYWNpbmciLCJfZ2V0UmVxdWlyZVdpbGRjYXJkQ2FjaGUiLCJub2RlSW50ZXJvcCIsIldlYWtNYXAiLCJjYWNoZUJhYmVsSW50ZXJvcCIsImNhY2hlTm9kZUludGVyb3AiLCJvYmoiLCJfX2VzTW9kdWxlIiwiZGVmYXVsdCIsImNhY2hlIiwiaGFzIiwiZ2V0IiwibmV3T2JqIiwiaGFzUHJvcGVydHlEZXNjcmlwdG9yIiwiT2JqZWN0IiwiZGVmaW5lUHJvcGVydHkiLCJnZXRPd25Qcm9wZXJ0eURlc2NyaXB0b3IiLCJrZXkiLCJwcm90b3R5cGUiLCJoYXNPd25Qcm9wZXJ0eSIsImNhbGwiLCJkZXNjIiwic2V0IiwiX2FkZFRyYWNpbmdFeHRlbnNpb25zIl0sInNvdXJjZXMiOlsiLi4vLi4vc3JjL2pzL2luZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCB7XG4gIEJyZWFkY3J1bWIsXG4gIFJlcXVlc3QsXG4gIFNka0luZm8sXG4gIEV2ZW50LFxuICBFeGNlcHRpb24sXG4gIFN0YWNrRnJhbWUsXG4gIFN0YWNrdHJhY2UsXG4gIFRocmVhZCxcbiAgVXNlcixcbiAgVXNlckZlZWRiYWNrLFxufSBmcm9tICdAc2VudHJ5L3R5cGVzJztcblxuZXhwb3J0IHtcbiAgYWRkR2xvYmFsRXZlbnRQcm9jZXNzb3IsXG4gIGFkZEJyZWFkY3J1bWIsXG4gIGNhcHR1cmVFeGNlcHRpb24sXG4gIGNhcHR1cmVFdmVudCxcbiAgY2FwdHVyZU1lc3NhZ2UsXG4gIGdldEh1YkZyb21DYXJyaWVyLFxuICBnZXRDdXJyZW50SHViLFxuICBIdWIsXG4gIFNjb3BlLFxuICBzZXRDb250ZXh0LFxuICBzZXRFeHRyYSxcbiAgc2V0RXh0cmFzLFxuICBzZXRUYWcsXG4gIHNldFRhZ3MsXG4gIHNldFVzZXIsXG4gIHN0YXJ0VHJhbnNhY3Rpb24sXG59IGZyb20gJ0BzZW50cnkvY29yZSc7XG5cbmltcG9ydCB7IF9hZGRUcmFjaW5nRXh0ZW5zaW9ucyB9IGZyb20gJy4vbWVhc3VyZW1lbnRzJztcbl9hZGRUcmFjaW5nRXh0ZW5zaW9ucygpO1xuXG5leHBvcnQge1xuICBJbnRlZ3JhdGlvbnMgYXMgQnJvd3NlckludGVncmF0aW9ucyxcbiAgRXJyb3JCb3VuZGFyeSxcbiAgd2l0aEVycm9yQm91bmRhcnksXG4gIGNyZWF0ZVJlZHV4RW5oYW5jZXIsXG4gIFByb2ZpbGVyLFxuICB1c2VQcm9maWxlcixcbiAgd2l0aFByb2ZpbGVyLFxufSBmcm9tICdAc2VudHJ5L3JlYWN0JztcblxuZXhwb3J0IHsgbGFzdEV2ZW50SWQgfSBmcm9tICdAc2VudHJ5L2Jyb3dzZXInO1xuXG5pbXBvcnQgKiBhcyBJbnRlZ3JhdGlvbnMgZnJvbSAnLi9pbnRlZ3JhdGlvbnMnO1xuaW1wb3J0IHsgU0RLX05BTUUsIFNES19WRVJTSU9OIH0gZnJvbSAnLi92ZXJzaW9uJztcbmV4cG9ydCB7IFJlYWN0TmF0aXZlT3B0aW9ucyB9IGZyb20gJy4vb3B0aW9ucyc7XG5leHBvcnQgeyBSZWFjdE5hdGl2ZUNsaWVudCB9IGZyb20gJy4vY2xpZW50JztcblxuZXhwb3J0IHtcbiAgaW5pdCxcbiAgd3JhcCxcbiAgLy8gZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIGRlcHJlY2F0aW9uL2RlcHJlY2F0aW9uXG4gIHNldERpc3QsXG4gIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBkZXByZWNhdGlvbi9kZXByZWNhdGlvblxuICBzZXRSZWxlYXNlLFxuICBuYXRpdmVDcmFzaCxcbiAgZmx1c2gsXG4gIGNsb3NlLFxuICBjYXB0dXJlVXNlckZlZWRiYWNrLFxuICB3aXRoU2NvcGUsXG4gIGNvbmZpZ3VyZVNjb3BlLFxufSBmcm9tICcuL3Nkayc7XG5leHBvcnQgeyBUb3VjaEV2ZW50Qm91bmRhcnksIHdpdGhUb3VjaEV2ZW50Qm91bmRhcnkgfSBmcm9tICcuL3RvdWNoZXZlbnRzJztcblxuZXhwb3J0IHtcbiAgUmVhY3ROYXRpdmVUcmFjaW5nLFxuICBSZWFjdE5hdmlnYXRpb25WNEluc3RydW1lbnRhdGlvbixcbiAgLy8gZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIGRlcHJlY2F0aW9uL2RlcHJlY2F0aW9uXG4gIFJlYWN0TmF2aWdhdGlvblY1SW5zdHJ1bWVudGF0aW9uLFxuICBSZWFjdE5hdmlnYXRpb25JbnN0cnVtZW50YXRpb24sXG4gIFJlYWN0TmF0aXZlTmF2aWdhdGlvbkluc3RydW1lbnRhdGlvbixcbiAgUm91dGluZ0luc3RydW1lbnRhdGlvbixcbiAgUmVhY3ROYXZpZ2F0aW9uVHJhbnNhY3Rpb25Db250ZXh0LFxuICBzZW50cnlUcmFjZUdlc3R1cmUsXG59IGZyb20gJy4vdHJhY2luZyc7XG5cbmV4cG9ydCB7IEludGVncmF0aW9ucywgU0RLX05BTUUsIFNES19WRVJTSU9OIH07XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFhQSxJQUFBQSxLQUFBLEdBQUFDLE9BQUE7QUFtQkEsSUFBQUMsYUFBQSxHQUFBRCxPQUFBO0FBR0EsSUFBQUUsTUFBQSxHQUFBRixPQUFBO0FBVUEsSUFBQUcsUUFBQSxHQUFBSCxPQUFBO0FBRUEsSUFBQUksWUFBQSxHQUFBQyx1QkFBQSxDQUFBTCxPQUFBO0FBQStDTSxPQUFBLENBQUFGLFlBQUEsR0FBQUEsWUFBQTtBQUMvQyxJQUFBRyxRQUFBLEdBQUFQLE9BQUE7QUFFQSxJQUFBUSxPQUFBLEdBQUFSLE9BQUE7QUFFQSxJQUFBUyxJQUFBLEdBQUFULE9BQUE7QUFjQSxJQUFBVSxZQUFBLEdBQUFWLE9BQUE7QUFFQSxJQUFBVyxRQUFBLEdBQUFYLE9BQUE7QUFVbUIsU0FBQVkseUJBQUFDLFdBQUEsZUFBQUMsT0FBQSxrQ0FBQUMsaUJBQUEsT0FBQUQsT0FBQSxRQUFBRSxnQkFBQSxPQUFBRixPQUFBLFlBQUFGLHdCQUFBLFlBQUFBLHlCQUFBQyxXQUFBLFdBQUFBLFdBQUEsR0FBQUcsZ0JBQUEsR0FBQUQsaUJBQUEsS0FBQUYsV0FBQTtBQUFBLFNBQUFSLHdCQUFBWSxHQUFBLEVBQUFKLFdBQUEsU0FBQUEsV0FBQSxJQUFBSSxHQUFBLElBQUFBLEdBQUEsQ0FBQUMsVUFBQSxXQUFBRCxHQUFBLFFBQUFBLEdBQUEsb0JBQUFBLEdBQUEsd0JBQUFBLEdBQUEsNEJBQUFFLE9BQUEsRUFBQUYsR0FBQSxVQUFBRyxLQUFBLEdBQUFSLHdCQUFBLENBQUFDLFdBQUEsT0FBQU8sS0FBQSxJQUFBQSxLQUFBLENBQUFDLEdBQUEsQ0FBQUosR0FBQSxZQUFBRyxLQUFBLENBQUFFLEdBQUEsQ0FBQUwsR0FBQSxTQUFBTSxNQUFBLFdBQUFDLHFCQUFBLEdBQUFDLE1BQUEsQ0FBQUMsY0FBQSxJQUFBRCxNQUFBLENBQUFFLHdCQUFBLFdBQUFDLEdBQUEsSUFBQVgsR0FBQSxRQUFBVyxHQUFBLGtCQUFBSCxNQUFBLENBQUFJLFNBQUEsQ0FBQUMsY0FBQSxDQUFBQyxJQUFBLENBQUFkLEdBQUEsRUFBQVcsR0FBQSxTQUFBSSxJQUFBLEdBQUFSLHFCQUFBLEdBQUFDLE1BQUEsQ0FBQUUsd0JBQUEsQ0FBQVYsR0FBQSxFQUFBVyxHQUFBLGNBQUFJLElBQUEsS0FBQUEsSUFBQSxDQUFBVixHQUFBLElBQUFVLElBQUEsQ0FBQUMsR0FBQSxLQUFBUixNQUFBLENBQUFDLGNBQUEsQ0FBQUgsTUFBQSxFQUFBSyxHQUFBLEVBQUFJLElBQUEsWUFBQVQsTUFBQSxDQUFBSyxHQUFBLElBQUFYLEdBQUEsQ0FBQVcsR0FBQSxTQUFBTCxNQUFBLENBQUFKLE9BQUEsR0FBQUYsR0FBQSxNQUFBRyxLQUFBLElBQUFBLEtBQUEsQ0FBQWEsR0FBQSxDQUFBaEIsR0FBQSxFQUFBTSxNQUFBLFlBQUFBLE1BQUE7QUE3Q25CLElBQUFXLG1DQUFxQixHQUFFIn0=

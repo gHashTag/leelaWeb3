@@ -1,0 +1,40 @@
+import React from 'react'
+
+import {
+  KeyboardAvoidingView,
+  Platform,
+  StyleSheet,
+  ViewProps,
+} from 'react-native'
+
+import { useHeaderHeight } from '@react-navigation/elements'
+import { useSafeAreaInsets } from 'react-native-safe-area-context'
+
+export type KeyboardSafeAreaProps = ViewProps & {}
+
+const KeyboardContainer = ({
+  children,
+  style,
+  ...props
+}: KeyboardSafeAreaProps) => {
+  const header = useHeaderHeight()
+  const insets = useSafeAreaInsets()
+  return (
+    <KeyboardAvoidingView
+      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+      keyboardVerticalOffset={Platform.select({
+        android: header + 47,
+        ios: insets.top + header,
+      })}
+      style={StyleSheet.compose(
+        { flex: 1, marginBottom: insets.bottom },
+        style,
+      )}
+      {...props}
+    >
+      {children}
+    </KeyboardAvoidingView>
+  )
+}
+
+export { KeyboardContainer }

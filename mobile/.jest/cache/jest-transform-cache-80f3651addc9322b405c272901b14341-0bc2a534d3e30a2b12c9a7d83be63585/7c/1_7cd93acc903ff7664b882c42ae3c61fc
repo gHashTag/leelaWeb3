@@ -1,0 +1,5 @@
+3d420d52596143f0877668fab50dca61
+module.exports = {
+      testUri:
+        "../../../src/components/Dice/assets_light/1.png"
+    };
