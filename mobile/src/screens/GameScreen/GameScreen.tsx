@@ -46,36 +46,43 @@ const GameScreen: React.FC = () => {
         if (privateKey) {
           wallet = new ethers.Wallet(privateKey, provider)
         }
-
-        const myContract = new ethers.Contract(
+        // console.log('wallet', wallet)
+        const contract = new ethers.Contract(
           contractAddress,
           contractAbi,
           wallet,
         )
 
-        const tx = await myContract.populateTransaction.rollDice()
+        const tx = await contract.populateTransaction.rollDice(6)
         console.log('tx', tx)
 
-        const gas = await myContract.estimateGas.rollDice()
-        console.log('gas', gas)
-        const { maxFeePerGas, maxPriorityFeePerGas } =
-          await provider.getFeeData()
+        // Подписка на событие DiceRolled
+        contract.on('DiceRolled', (roller, rolled, currentPlan, event) => {
+          console.log('Событие DiceRolled:', roller, rolled, currentPlan)
+          console.log('event', event)
+          // Обработка события здесь
+        })
 
-        const gsnTx = {
-          from: account,
-          data: tx.data,
-          to: tx.to,
-          gasLimit: gas._hex,
-          maxFeePerGas: maxFeePerGas?._hex,
-          maxPriorityFeePerGas: maxPriorityFeePerGas?._hex,
-        } as GsnTransactionDetails
+        // const gas = await myContract.estimateGas.rollDice()
+        // console.log('gas', gas)
+        // const { maxFeePerGas, maxPriorityFeePerGas } =
+        //   await provider.getFeeData()
 
-        console.log('gsnTx', gsnTx)
+        // const gsnTx = {
+        //   from: account,
+        //   data: tx.data,
+        //   to: tx.to,
+        //   gasLimit: gas._hex,
+        //   maxFeePerGas: maxFeePerGas?._hex,
+        //   maxPriorityFeePerGas: maxPriorityFeePerGas?._hex,
+        // } as GsnTransactionDetails
 
-        if (RlyNetwork.relay) {
-          const relay = await RlyNetwork.relay(gsnTx)
-          console.log('relay', relay)
-        }
+        // console.log('gsnTx', gsnTx)
+
+        // if (RlyNetwork.relay) {
+        //   const relay = await RlyNetwork.relay(gsnTx)
+        //   console.log('relay', relay)
+        // }
       } catch (error) {
         console.log('error', error)
       }
